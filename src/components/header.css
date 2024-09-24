@@ -15,20 +15,43 @@
 
 /* Hide desktop navigation by default */
 .desktop-nav {
-    display: none; /* Hide by default */
+    display: none;
+}
+.login_btn {
+    background-color: yellow;
+    padding: 0.8rem 1rem;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(206, 96, 96);
+    margin-top: 50px;
+    width: 100px;
+    text-align: center;
+}
+.login_btn:hover {
+    background-color: rgb(229, 249, 9);
 }
 
 /* Show desktop navigation on larger screens */
 @media (min-width: 768px) {
     .desktop-nav {
-        display: flex; /* Show on larger screens */
+        display: flex;
         list-style-type: none;
         gap: 2rem;
     }
-
-    /* Hide the hamburger menu on larger screens */
+    .login_btn {
+        background-color: yellow;
+        padding: 0.8rem 1rem;
+        border-radius: 100px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    .login_btn:hover {
+        background-color: rgb(229, 249, 9);
+    }
     nav .MuiIconButton-root {
-        display: none; /* Hide hamburger icon on larger screens */
+        display: none;
     }
 }
 
@@ -41,5 +64,5 @@ nav a, .mobile-nav li a {
 
 /* Optional: Hover effect for links */
 nav a:hover, .mobile-nav li a:hover {
-    color: #ff5722;
+    color: #975845;
 }

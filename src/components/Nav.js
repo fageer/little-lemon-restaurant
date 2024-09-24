@@ -25,7 +25,7 @@ function Nav() {
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#reservations">Reservations</a></li>
                 <li><a href="#order">Order online</a></li>
-                <li><a href="#login">Login</a></li>
+                <li className='login_btn'><a href="#login">Login</a></li>
             </ul>
         </div>
     );
@@ -54,7 +54,7 @@ function Nav() {
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#reservations">Reservations</a></li>
                 <li><a href="#order">Order online</a></li>
-                <li><a href="#login">Login</a></li>
+                <li><a className='login_btn' href="#login">Login</a></li>
             </ul>
         </nav>
     );
