@@ -1,4 +1,3 @@
-import "./header.css"
 import Nav from "./Nav";
 import Logo from "../assets/images/Logo.svg"
 function Header(){
