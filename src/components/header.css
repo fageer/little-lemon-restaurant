@@ -1,20 +1,45 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10%;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
 }
-ul{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
+.mobile-nav{
+    list-style: none;
 }
-li{
-    margin-right: 10px;
+
+.header img {
+    max-width: 150px;
 }
-a{
+
+/* Hide desktop navigation by default */
+.desktop-nav {
+    display: none; /* Hide by default */
+}
+
+/* Show desktop navigation on larger screens */
+@media (min-width: 768px) {
+    .desktop-nav {
+        display: flex; /* Show on larger screens */
+        list-style-type: none;
+        gap: 2rem;
+    }
+
+    /* Hide the hamburger menu on larger screens */
+    nav .MuiIconButton-root {
+        display: none; /* Hide hamburger icon on larger screens */
+    }
+}
+
+/* Styles for navigation links */
+nav a, .mobile-nav li a {
     text-decoration: none;
     color: #333;
+    font-weight: bold;
+}
+
+/* Optional: Hover effect for links */
+nav a:hover, .mobile-nav li a:hover {
+    color: #ff5722;
 }
