@@ -37,7 +37,7 @@ function Footer(){
                 </li>
             </div>
             <div>
-                <p>�� 2022 Little Lemon. All rights reserved.</p>
+                <p>&copy; 2024 Little Lemon. All rights reserved.</p>
             </div>
         </footer>
     )

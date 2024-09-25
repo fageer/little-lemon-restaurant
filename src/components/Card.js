@@ -2,13 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
 
-function Card({ image }) {
+function Card({ image , title}) {
     return (
         <div className='card'>
             <img src={image} alt="Hero 1" />
             <div>
                 <div>
-                    <h3>Greek Salad</h3>
+                    <h3>{title}</h3>
                     <span>$12.99</span>
                 </div>
                 <p>A delicious Greek salad made with fresh lettuce, tomatoes, cucumbers, olives, and feta cheese.</p>

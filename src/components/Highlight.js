@@ -12,9 +12,9 @@ function Highlight() {
                 <button className='primary_btn'>Online Menu</button>
             </div>
             <div className='highlights'>
-                <Card image={highlight1} />
-                <Card image={highlight2} />
-                <Card image={highlight3} />
+                <Card image={highlight1} title="Greek Salad" />
+                <Card image={highlight2} title="Greek Salad" />
+                <Card image={highlight3} title="Lemon Dessert" />
             </div>
         </section>
     );
