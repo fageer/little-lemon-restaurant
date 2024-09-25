@@ -119,6 +119,47 @@
 
 
 
+/* Footer Style */
+footer {
+  background-color: #495E57;
+  padding: 50px 50px 0px 50px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer div img{
+  width: 100px;
+  filter: blur(0px) contrast(0%) brightness(5);
+}
+.footer_li h1{
+  list-style: none;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+.footer-nav li, .footer_li, .link {
+  list-style: none;
+  margin-right: 20px;
+  color: #fff;
+  padding-left: 10px;
+}
+.link:hover {
+  color: #F4ce14;
+}
+footer div p {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+/* End Footer Style */
+
 
 
 
@@ -243,5 +284,20 @@ nav a:hover, .mobile-nav li a:hover {
   .card div p {
     font-size: .8rem;
     margin-bottom: 15px;
+  }
+  footer {
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+  }
+  .footer{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer_li h1{
+    font-size: 1.5em;
+  }
+  .footer-nav li, .footer_li, .link {
+    color: #fff;
+    padding-left: 10px;
   }
 }
