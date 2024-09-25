@@ -1,10 +1,10 @@
 import React from 'react';
+import menu from "../assets/images/menu.webp"
 
 function MenuPage() {
     return (
         <div>
-            <h1>Our Menu</h1>
-            <p>Check out our delicious menu offerings.</p>
+            <img className='menu_img' src={menu} alt='menu'/>
         </div>
     );
 }
